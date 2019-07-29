@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Inkypen79/android_device_xiaomi_lithium" path="device/xiaomi/lithium" remote="github" revision="aex-pie" />
+  <project name="Inkypen79/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="aex-eas" />
+  <project name="PsyMan47/Pepsy-Kernel" path="kernel/xiaomi/msm8996" remote="github" revision="pepsy-pie-eas" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
+</manifest>
