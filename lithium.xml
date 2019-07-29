@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="inkypen79/platform_packages_apps_Dialer" remote="github" revision="9.0" />
+
+  <project name="Inkypen79/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.0" />
+  <project name="Inkypen79/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0" />
+  <project name="Inkypen79/platform_device_xiaomi_lithium" path="device/xiaomi/lithium" remote="github" revision="9.0" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/audio-caf/msm8996" name="inkypen79/platform_hardware_qcom_audio" remote="github" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" remote="syberia" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" remote="syberia" revision="9.0-caf-8996" />
+
+  <!-- Vendor NXP -->
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="syberia" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="syberia" />
+  <project path="vendor/nxp/opensource/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="syberia" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="syberia" />
+</manifest>
