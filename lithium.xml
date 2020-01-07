@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="pixel-gitlab" fetch="https://gitlab.com/PixelExperience" />
+  <project name="PixelExperience-Devices/device_xiaomi_lithium" path="device/xiaomi/lithium" remote="github" revision="ten" />
+  <project name="PixelExperience-Devices/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="staging/ten" />
+  <project name="MisterJaworro/gemini" path="kernel/xiaomi/msm8996" remote="github" revision="vanilla-3.18" />
+  <project name="MisterJaworro/aarch64" path="kernel/xiaomi/msm8996/aarch64" remote="github" revision="master" />
+  <project name="MisterJaworro/qcacld-2.0" path="kernel/xiaomi/msm8996/drivers/staging/qcacld-2.0" remote="github" revision="master" />
+  <project name="Inkypen79/vendor_mi8996" path="vendor/xiaomi" remote="github" revision="ten" />
+  <project name="packages_apps_PixelLiveWallpaper" path="packages/apps/PixelLiveWallpaper" remote="pixel-gitlab" revision="ten" />
+</manifest>
